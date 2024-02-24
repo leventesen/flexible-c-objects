@@ -1,0 +1,4 @@
+{
+	"name": "Flexible C Objects",
+	"image": "mcr.microsoft.com/vscode/devcontainers/cpp:jammy"
+}
