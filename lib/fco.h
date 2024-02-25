@@ -35,8 +35,10 @@ typedef FCO_ObjectHandle (*FCO_ObjectConstructor)(FCO_TypeName type);
 typedef void *(*FCO_AllocFunc)(unsigned int size);
 
 // Exception codes
-typedef enum {
+typedef enum
+{
 	FCO_UNKNOWN_EXCEPTION,
+	FCO_NULL_ALLOC_FUNC_EXCEPTION,
 	FCO_MEMORY_ALLOC_EXCEPTION,
 } FCO_ExceptionCode;
 
