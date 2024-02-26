@@ -2,6 +2,6 @@
 
 int main()
 {
-	puts("Example_1");
+	puts("Example_2");
 	return 0;
 }

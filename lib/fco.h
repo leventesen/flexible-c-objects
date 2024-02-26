@@ -37,6 +37,7 @@ typedef void *(*FCO_AllocFunc)(unsigned int size);
 // Exception codes
 typedef enum
 {
+	FCO_NO_EXCEPTION,
 	FCO_UNKNOWN_EXCEPTION,
 	FCO_NULL_ALLOC_FUNC_EXCEPTION,
 	FCO_MEMORY_ALLOC_EXCEPTION,
